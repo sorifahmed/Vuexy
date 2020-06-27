@@ -1,0 +1,63 @@
+@media screen and (max-width:992px){
+.header_top{
+	display: none;
+}
+.col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.datepicker {
+    margin-left: 11px;
+}
+.date {
+    margin-right: 10px;
+}
+ 
+}
+ 
+@media screen and (max-width:768px){
+ .carousel-control-next, .carousel-control-prev{
+ 	display: none;
+ }
+ .carousel-caption {
+ 	top:20%;
+ }
+ .search_bg .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+select#inputState {
+    margin-left: 10px;
+}
+.date {
+    margin-left: 20px;
+}
+.search_bg {
+    margin-left:0px;
+}
+.search-ad {
+    margin-left: 0px;
+    margin-top: 11px;
+}
+.col-sm-6.col-md-3 {
+    padding-bottom:40px;
+}
+.element-item {
+  width: 100%;
+}
+.traip_ad:before {
+    transform: skew(0deg);
+    width: 0;
+}
+.trip_left {
+    background: #fff;
+    padding: 18px;
+    box-shadow: 1px 1px 3px 0px #ddd;
+    border-radius: 4px;
+}
+}
+@media screen and (min-width:576px){
+.destination_content p{
+    left: 0px;
+}
+}
